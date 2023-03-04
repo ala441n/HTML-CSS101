@@ -1,0 +1,42 @@
+
+body{
+  margin: 0;
+  font-size: 14px;
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(218, 44%, 22%);
+  font-family: 'Open Sans', sans-serif;
+
+}
+p{
+  color: hsl(220, 15%, 55%);
+}
+.container{
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 12px;
+  height: 550px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 50px 20px;
+  text-align: center;
+
+}
+img{
+  width: 300px;
+  border-radius: 12px;
+
+}
+
+@media screen and (min-width:1200px) {
+  .container{
+    scale: 0.8;
+  }
+  
+}
